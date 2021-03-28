@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.4.72-microsoft-standard-WSL2-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.10",
+    "heartbeatAt": "2021-03-28T06:07:46.916370",
+    "startedAt": "2021-03-28T06:07:46.353467",
+    "docker": null,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/phatdatn/182-vision.git",
+        "commit": "4beb4a2eb0a0b7fe295ec44adc5e78316b9a70d5"
+    },
+    "email": "phatdatn@berkeley.edu",
+    "root": "/home/phatdatn/182-vision",
+    "host": "Ren\u00e9e",
+    "username": "phatdatn",
+    "executable": "/home/phatdatn/anaconda3/envs/vis/bin/python"
+}

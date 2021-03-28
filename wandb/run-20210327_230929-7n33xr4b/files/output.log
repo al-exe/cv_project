@@ -1,0 +1,169 @@
+Discovered 120000 images
+Epoch 1/1.. Train loss: 5.322.. Validation loss: 5.510.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.327.. Validation loss: 5.645.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.347.. Validation loss: 5.277.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.317.. Validation loss: 5.267.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.308.. Validation loss: 5.258.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.306.. Validation loss: 5.271.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.299.. Validation loss: 5.296.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.302.. Validation loss: 5.305.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.303.. Validation loss: 5.281.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.303.. Validation loss: 5.285.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.303.. Validation loss: 5.247.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.300.. Validation loss: 5.242.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.300.. Validation loss: 5.241.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.304.. Validation loss: 5.244.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.297.. Validation loss: 5.260.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.298.. Validation loss: 5.272.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.294.. Validation loss: 5.302.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.311.. Validation loss: 5.391.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.296.. Validation loss: 5.269.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.297.. Validation loss: 5.312.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.293.. Validation loss: 5.386.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.302.. Validation loss: 5.285.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.298.. Validation loss: 5.258.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.295.. Validation loss: 5.270.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.297.. Validation loss: 5.326.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.303.. Validation loss: 5.314.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.305.. Validation loss: 5.289.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.294.. Validation loss: 5.313.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.297.. Validation loss: 5.289.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.298.. Validation loss: 5.282.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.299.. Validation loss: 5.298.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.300.. Validation loss: 5.267.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.289.. Validation loss: 5.471.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.297.. Validation loss: 5.406.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.299.. Validation loss: 5.288.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.286.. Validation loss: 5.325.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.291.. Validation loss: 5.326.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.286.. Validation loss: 5.329.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.270.. Validation loss: 5.348.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.279.. Validation loss: 5.352.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.263.. Validation loss: 5.547.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.255.. Validation loss: 5.336.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.247.. Validation loss: 5.516.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.265.. Validation loss: 5.452.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.260.. Validation loss: 5.408.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.255.. Validation loss: 5.543.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.238.. Validation loss: 5.535.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.245.. Validation loss: 5.464.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.210.. Validation loss: 5.565.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.237.. Validation loss: 5.554.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.215.. Validation loss: 5.488.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.226.. Validation loss: 5.483.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.230.. Validation loss: 5.417.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.214.. Validation loss: 5.442.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.226.. Validation loss: 5.495.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.192.. Validation loss: 5.516.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.170.. Validation loss: 5.490.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.191.. Validation loss: 5.475.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.220.. Validation loss: 5.372.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.184.. Validation loss: 5.337.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.202.. Validation loss: 5.365.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.156.. Validation loss: 5.376.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.189.. Validation loss: 5.434.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.183.. Validation loss: 5.481.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.207.. Validation loss: 5.414.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.175.. Validation loss: 5.364.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.175.. Validation loss: 5.365.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.192.. Validation loss: 5.479.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.152.. Validation loss: 5.499.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.166.. Validation loss: 5.522.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.160.. Validation loss: 5.512.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.138.. Validation loss: 5.570.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.138.. Validation loss: 5.585.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.210.. Validation loss: 5.496.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.129.. Validation loss: 5.569.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.158.. Validation loss: 5.584.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.164.. Validation loss: 5.454.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.128.. Validation loss: 5.432.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.130.. Validation loss: 5.612.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.126.. Validation loss: 5.659.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.132.. Validation loss: 5.574.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.103.. Validation loss: 5.552.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.149.. Validation loss: 5.590.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.117.. Validation loss: 5.518.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.169.. Validation loss: 5.549.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.173.. Validation loss: 5.647.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.114.. Validation loss: 5.513.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.130.. Validation loss: 5.513.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.111.. Validation loss: 5.583.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.113.. Validation loss: 5.650.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.125.. Validation loss: 5.646.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.148.. Validation loss: 5.598.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.142.. Validation loss: 5.604.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.145.. Validation loss: 5.605.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.080.. Validation loss: 5.713.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.154.. Validation loss: 5.723.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.079.. Validation loss: 5.633.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.090.. Validation loss: 5.652.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.115.. Validation loss: 5.764.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.081.. Validation loss: 5.787.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.103.. Validation loss: 5.674.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.082.. Validation loss: 5.672.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.166.. Validation loss: 5.513.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.077.. Validation loss: 5.592.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.104.. Validation loss: 5.657.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.096.. Validation loss: 5.727.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.101.. Validation loss: 5.722.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.093.. Validation loss: 5.713.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.101.. Validation loss: 5.694.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.073.. Validation loss: 5.920.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.073.. Validation loss: 5.760.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.157.. Validation loss: 5.717.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.098.. Validation loss: 5.895.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.083.. Validation loss: 5.739.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.050.. Validation loss: 5.787.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.092.. Validation loss: 5.701.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.156.. Validation loss: 5.779.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.117.. Validation loss: 5.863.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.154.. Validation loss: 5.843.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.124.. Validation loss: 5.760.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.047.. Validation loss: 5.665.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.072.. Validation loss: 5.533.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.060.. Validation loss: 5.540.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.120.. Validation loss: 5.817.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.049.. Validation loss: 6.037.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.073.. Validation loss: 5.483.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.052.. Validation loss: 5.548.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.085.. Validation loss: 5.700.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.037.. Validation loss: 5.459.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.052.. Validation loss: 5.685.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.058.. Validation loss: 5.464.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.139.. Validation loss: 5.629.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.032.. Validation loss: 5.856.. Validation accuracy: 0.001
+Epoch 1/1.. Train loss: 5.111.. Validation loss: 5.598.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.094.. Validation loss: 5.492.. Validation accuracy: 0.001
+Epoch 1/1.. Train loss: 5.130.. Validation loss: 5.785.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 4.998.. Validation loss: 5.728.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.033.. Validation loss: 5.714.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.074.. Validation loss: 5.445.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.060.. Validation loss: 5.716.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.048.. Validation loss: 5.852.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.047.. Validation loss: 5.740.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.085.. Validation loss: 5.816.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.063.. Validation loss: 5.892.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.038.. Validation loss: 5.584.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.069.. Validation loss: 5.846.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.066.. Validation loss: 5.796.. Validation accuracy: 0.000
+Epoch 1/1.. Train loss: 5.019.. Validation loss: 5.482.. Validation accuracy: 0.001
+Traceback (most recent call last):
+  File "train.py", line 106, in <module>
+    train_losses.append(train_loss/len(train_loader))
+  File "train.py", line 85, in main
+    if use_wandb:
+  File "/home/phatdatn/anaconda3/envs/vis/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 517, in __next__
+    data = self._next_data()
+  File "/home/phatdatn/anaconda3/envs/vis/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1171, in _next_data
+    self._shutdown_workers()
+  File "/home/phatdatn/anaconda3/envs/vis/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1297, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home/phatdatn/anaconda3/envs/vis/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/home/phatdatn/anaconda3/envs/vis/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home/phatdatn/anaconda3/envs/vis/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/home/phatdatn/anaconda3/envs/vis/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt

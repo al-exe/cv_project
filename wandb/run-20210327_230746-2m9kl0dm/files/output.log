@@ -1,0 +1,7 @@
+Discovered 120000 images
+Traceback (most recent call last):
+  File "train.py", line 106, in <module>
+    main()
+  File "train.py", line 78, in main
+    train_loss += loss.item()
+UnboundLocalError: local variable 'train_loss' referenced before assignment
