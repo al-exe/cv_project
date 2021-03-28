@@ -1,3 +1,4 @@
 data/tiny-imagenet-200
 data/tiny-imagenet-200.zip
 wandb
+latest.pt

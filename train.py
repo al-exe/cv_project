@@ -19,7 +19,7 @@ import wandb
 
 def main():
     # Create a pytorch dataset
-    use_wandb = False
+    use_wandb = True
     if use_wandb:
         wandb.init(project="182-vision")
 
@@ -34,7 +34,7 @@ def main():
     batch_size = 32
     im_height = 64
     im_width = 64
-    epochs = 1
+    epochs = 10
     print_every = 10
 
     data_transforms = transforms.Compose([
@@ -50,7 +50,15 @@ def main():
                                         shuffle=True, num_workers=4, pin_memory=True)
 
     model = torchvision.models.resnet50(pretrained=True)
-    model.fc = nn.Linear(in_features=2048, out_features=200, bias=True)
+    # model.fc = nn.Linear(in_features=2048, out_features=200, bias=True)
+    model.fc = nn.Sequential(nn.Linear(2048, 512, bias=True),
+                                 nn.ReLU(),
+                                 nn.Dropout(0.2),
+                                 nn.Linear(512, 256),
+                                 nn.ReLU(),
+                                 nn.Dropout(0.2),
+                                 nn.Linear(256, 200),
+                                 nn.LogSoftmax(dim=1))
     if torch.cuda.is_available():
         model.cuda()
     optimizer = torch.optim.Adam(model.parameters())
@@ -99,12 +107,12 @@ def main():
                     f"Validation accuracy: {accuracy/len(val_loader):.3f}")
                 train_loss = 0
                 model.train()
-            break
         torch.save({
             'net': model.state_dict(),
         }, 'latest.pt')
         plt.plot(train_losses, label='Training loss')
         plt.plot(val_losses, label='Validation loss')
+        plt.title("Loss")
         plt.legend(frameon=False)
         plt.savefig('loss.png')
 
