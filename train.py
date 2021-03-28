@@ -6,6 +6,7 @@ and to validate your own code submission.
 """
 
 import pathlib
+import matplotlib.pyplot as plt
 import numpy as np
 import torch
 import torchvision
@@ -22,7 +23,7 @@ def main():
     if use_wandb:
         wandb.init(project="182-vision")
 
-    device='cpu'
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
     data_dir = pathlib.Path('./data/tiny-imagenet-200')
     image_count = len(list(data_dir.glob('**/*.JPEG')))
@@ -50,6 +51,8 @@ def main():
 
     model = torchvision.models.resnet50(pretrained=True)
     model.fc = nn.Linear(in_features=2048, out_features=200, bias=True)
+    if torch.cuda.is_available():
+        model.cuda()
     optimizer = torch.optim.Adam(model.parameters())
     criterion = nn.CrossEntropyLoss()
 
@@ -96,11 +99,12 @@ def main():
                     f"Validation accuracy: {accuracy/len(val_loader):.3f}")
                 train_loss = 0
                 model.train()
+            break
         torch.save({
             'net': model.state_dict(),
         }, 'latest.pt')
         plt.plot(train_losses, label='Training loss')
-        plt.plot(test_losses, label='Validation loss')
+        plt.plot(val_losses, label='Validation loss')
         plt.legend(frameon=False)
         plt.savefig('loss.png')
 
