@@ -49,19 +49,20 @@ def main():
     val_loader = torch.utils.data.DataLoader(val_set, batch_size=batch_size,
                                         shuffle=True, num_workers=4, pin_memory=True)
 
-    model = torchvision.models.resnet50(pretrained=True)
-    # model.fc = nn.Linear(in_features=2048, out_features=200, bias=True)
-    model.fc = nn.Sequential(nn.Linear(2048, 512, bias=True),
-                                 nn.ReLU(),
-                                 nn.Dropout(0.2),
-                                 nn.Linear(512, 256),
-                                 nn.ReLU(),
-                                 nn.Dropout(0.2),
-                                 nn.Linear(256, 200),
-                                 nn.LogSoftmax(dim=1))
+    # model = torchvision.models.resnet50(pretrained=True)
+    # # model.fc = nn.Linear(in_features=2048, out_features=200, bias=True)
+    # model.fc = nn.Sequential(nn.Linear(2048, 512, bias=True),
+    #                              nn.ReLU(),
+    #                              nn.Dropout(0.2),
+    #                              nn.Linear(512, 256),
+    #                              nn.ReLU(),
+    #                              nn.Dropout(0.2),
+    #                              nn.Linear(256, 200),
+    #                              nn.LogSoftmax(dim=1))
+    model = Net(len(CLASS_NAMES), im_height, im_width)
     if torch.cuda.is_available():
         model.cuda()
-    optimizer = torch.optim.Adam(model.parameters())
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
     criterion = nn.CrossEntropyLoss()
 
     steps = 0
@@ -97,7 +98,11 @@ def main():
 
                         ps = torch.exp(logps)
                         top_p, top_class = ps.topk(1, dim=1)
+                        print(ps)
+                        print(top_p)
+                        print(top_class)
                         equals = top_class == labels.view(*top_class.shape)
+                        print(equals)
                         accuracy += torch.mean(equals.type(torch.FloatTensor)).item()
                 train_losses.append(train_loss/len(train_loader))
                 val_losses.append(val_loss/len(val_loader))                    
