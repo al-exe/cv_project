@@ -31,11 +31,11 @@ def main():
         'train': transforms.Compose([
             transforms.RandomHorizontalFlip(),
             transforms.ToTensor(),
-            # transforms.Normalize([0.4914, 0.4822, 0.4465], [0.2023, 0.1994, 0.2010])
+            # transforms.Normalize((0, 0, 0), tuple(np.sqrt((255, 255, 255))))
         ]),
         'val': transforms.Compose([
             transforms.ToTensor(),
-            # transforms.Normalize([0.4914, 0.4822, 0.4465], [0.2023, 0.1994, 0.2010])
+            # transforms.Normalize((0, 0, 0), tuple(np.sqrt((255, 255, 255))))
         ]),
     }
 
@@ -145,7 +145,7 @@ def main():
         model.load_state_dict(best_model_wts)
         return model
 
-    model_ft = models.resnet18()
+    model_ft = models.resnet50(pretrained=True)
     model_ft.avgpool = nn.AdaptiveAvgPool2d(1)
     num_ftrs = model_ft.fc.in_features
     model_ft.fc = nn.Linear(num_ftrs, 200)
