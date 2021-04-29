@@ -43,3 +43,32 @@ class APNet(nn.Module):
         x = F.elu(self.fc2(x))
         x = self.fc3(x)
         return x
+
+# Discriminator Network, based on ResNet-18
+class DNet(nn.Module):
+    def __init__(self, num_classes, im_height, im_width):
+        super(DNet, self).__init__()
+        self.c1 = nn.Conv2d(3, 32, 3)
+        self.c2 = nn.Conv2d(32, 64, 3)
+        self.c3 = nn.Conv2d(64, 128, 3)
+        self.c4 = nn.Conv2d(128, 256, 3)
+        self.c5 = nn.Conv2d(256, 512, 3)
+
+        self.ap = nn.AvgPool2d(7, 7)
+        self.mp = nn.MaxPool2d(3, 3, stride=2)
+        
+        self.fc = nn.Linear(512, 1000)
+        
+        self.sm = nn.Softmax(1000)
+        return
+
+    def forward(self, x):
+        x = self.mp(F.elu(self.c1(x)))
+        x = self.c2(x)
+        x = self.c3(x)
+        x = self.c4(x)
+        x = self.c5(x)
+        x = self.ap(x)
+        x = self.fc(x)
+        x = self.sm(x)
+        return x
